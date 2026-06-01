@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Roadmap from "./pages/Roadmap";
 import Identity from "./pages/Identity";
+import Card from "./pages/Card";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/identity" element={<Identity />} />
+        <Route path="/card" element={<Card />} />
       </Routes>
     </BrowserRouter>
   );
