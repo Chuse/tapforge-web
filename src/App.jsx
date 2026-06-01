@@ -9,6 +9,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/identity" element={<Identity />} />
       </Routes>
     </BrowserRouter>
   );
