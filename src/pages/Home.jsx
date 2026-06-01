@@ -31,12 +31,12 @@ function Header() {
           </div>
         </div>
         <nav className="hidden items-center gap-7 text-sm font-bold text-slate-600 md:flex">
-          <a href="#identity" className="hover:text-emerald-600">Identidad</a>
-          <a href="#card" className="hover:text-emerald-600">Card</a>
-          <a href="#wallet" className="hover:text-emerald-600">Wallet</a>
-          <a href="#roadmap" className="hover:text-emerald-600">Roadmap</a>
+          <a href="/identity" className="hover:text-emerald-600">Identidad</a>
+          <a href="/card" className="hover:text-emerald-600">Card</a>
+          <a href="/wallet" className="hover:text-emerald-600">Wallet</a>
+          <a href="/roadmap" className="hover:text-emerald-600">Roadmap</a>
         </nav>
-        <a href="#roadmap" className="rounded-2xl bg-emerald-500 px-5 py-3 text-sm font-black text-white shadow-lg shadow-emerald-500/25 hover:bg-emerald-600">
+        <a href="/roadmap" className="rounded-2xl bg-emerald-500 px-5 py-3 text-sm font-black text-white shadow-lg shadow-emerald-500/25 hover:bg-emerald-600">
           Ver roadmap
         </a>
       </div>
@@ -156,10 +156,10 @@ export default function TapForgeHomePage() {
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a href="#identity" className="rounded-2xl bg-emerald-500 px-8 py-5 text-center text-base font-black text-white shadow-xl shadow-emerald-500/25 hover:bg-emerald-600">
+              <a href="/identity" className="rounded-2xl bg-emerald-500 px-8 py-5 text-center text-base font-black text-white shadow-xl shadow-emerald-500/25 hover:bg-emerald-600">
                 Descubrir TapForge →
               </a>
-              <a href="#roadmap" className="rounded-2xl border border-white bg-white/75 px-8 py-5 text-center text-base font-black text-slate-800 shadow-lg backdrop-blur-xl hover:bg-white">
+              <a href="/roadmap" className="rounded-2xl border border-white bg-white/75 px-8 py-5 text-center text-base font-black text-slate-800 shadow-lg backdrop-blur-xl hover:bg-white">
                 Ver roadmap
               </a>
             </div>
