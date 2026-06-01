@@ -1,6 +1,5 @@
 import React, { useMemo, useState } from "react";
-
-const LOGO_SRC = "https://dummyimage.com/320x320/02bfa0/ffffff&text=TapForge";
+import logo from "../assets/tapforge-logo.svg";
 
 const roadmap = [
   {
@@ -96,7 +95,13 @@ const initialIdeas = [
 ];
 
 function Logo({ className = "h-12 w-12", muted = false }) {
-  return <img src={LOGO_SRC} alt="TapForge" className={`${className} object-contain ${muted ? "opacity-[0.06]" : ""}`} />;
+  return (
+    <img
+      src={logo}
+      alt="TapForge"
+      className={`${className} object-contain ${muted ? "opacity-[0.06]" : ""}`}
+    />
+  );
 }
 
 function Header() {
