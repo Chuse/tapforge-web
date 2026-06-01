@@ -1,6 +1,6 @@
 import React from "react";
+import logo from "../assets/tapforge-logo.svg";
 
-const LOGO_SRC = "https://dummyimage.com/320x320/02bfa0/ffffff&text=TapForge";
 
 const IMAGES = {
   hero:
