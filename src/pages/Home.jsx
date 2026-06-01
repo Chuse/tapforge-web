@@ -12,7 +12,7 @@ const IMAGES = {
 function Logo({ className = "h-12 w-12", muted = false }) {
   return (
     <img
-      src={LOGO_SRC}
+      src={logo}
       alt="TapForge"
       className={`${className} object-contain ${muted ? "opacity-[0.06]" : ""}`}
     />
