@@ -18,24 +18,38 @@ function Header() {
         <a href="/" className="flex items-center gap-3">
           <Logo />
           <div>
-            <p className="text-lg font-black leading-none text-slate-950">TapForge</p>
+            <p className="text-lg font-black leading-none text-slate-950">
+              TapForge
+            </p>
             <p className="mt-1 text-xs font-bold tracking-[0.18em] text-emerald-600">
-              IDENTIDAD .KLV
+              IDENTITY · CARD · WALLET
             </p>
           </div>
         </a>
 
-        <nav className="hidden items-center gap-7 text-sm font-bold text-slate-600 md:flex">
-          <a href="/" className="hover:text-emerald-600">Inicio</a>
-          <a href="/identity" className="text-emerald-600">Identidad</a>
-          <a href="/roadmap" className="hover:text-emerald-600">Roadmap</a>
+        <nav className="hidden items-center gap-8 text-sm font-bold text-slate-600 md:flex">
+          <a href="/" className="hover:text-emerald-600 transition-colors">
+            Inicio
+          </a>
+          <a href="/identity" className="hover:text-emerald-600 transition-colors">
+            Identity
+          </a>
+          <a href="/card" className="hover:text-emerald-600 transition-colors">
+            Card
+          </a>
+          <a href="/wallet" className="hover:text-emerald-600 transition-colors">
+            Wallet
+          </a>
+          <a href="/roadmap" className="hover:text-emerald-600 transition-colors">
+            Community
+          </a>
         </nav>
 
         <a
-          href="/roadmap"
-          className="rounded-2xl bg-emerald-500 px-5 py-3 text-sm font-black text-white shadow-lg shadow-emerald-500/25 hover:bg-emerald-600"
+          href="/identity"
+          className="rounded-2xl bg-emerald-500 px-5 py-3 text-sm font-black text-white shadow-lg shadow-emerald-500/25 hover:bg-emerald-600 transition-colors"
         >
-          Ver roadmap
+          Crear identidad
         </a>
       </div>
     </header>
